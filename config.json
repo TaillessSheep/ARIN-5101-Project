@@ -3,34 +3,27 @@
   "num_epochs": 12,
   "batch_size": 128,
   "force_train": true,
-  "model_dir": {
-    "baseline": "./models/baseline"
-  },
-  "reports_dir": {
-    "baseline": "./reports/baseline"
-  },
-  "subset_choice": "balanced",
+  "model_dir": "./models",
+  "reports_dir": "./reports",
+  "subset_choice": "animals",
   "num_classes": 10,
   "subset_options": {
     "balanced": {
       "name": "Balanced & Easy",
       "description": "Distinct shapes and colors - Recommended for quick training",
-      "classes": [4, 73, 92, 61, 87, 20, 14, 3, 49, 90],
-      "class_names": ["beaver", "shark", "tulip", "plate", "television", "chair", "butterfly", "bear", "mountain", "train"],
-      "model_name": "20251105_102247"
+      "classes": ["beaver", "shark", "tulip", "plate", "television", "chair", "butterfly", "bear", "mountain", "train"],
+      "model_name": null
     },
     "animals": {
       "name": "All-Animals Theme",
       "description": "Consistent biological category",
-      "classes": [4, 95, 91, 34, 97, 21, 80, 66, 93, 36],
-      "class_names": ["beaver", "whale", "trout", "fox", "wolf", "chimpanzee", "squirrel", "raccoon", "turtle", "hamster"],
+      "classes": ["beaver", "whale", "trout", "fox", "wolf", "chimpanzee", "squirrel", "raccoon", "turtle", "hamster"],
       "model_name": null
     },
     "objects": {
       "name": "Human-Made Objects",
       "description": "Object-focused subset",
-      "classes": [9, 28, 39, 87, 20, 84, 37, 68, 58, 90],
-      "class_names": ["bottle", "cup", "keyboard", "television", "chair", "table", "house", "road", "pickup truck", "train"],
+      "classes": ["bottle", "cup", "keyboard", "television", "chair", "table", "house", "road", "pickup truck", "train"],
       "model_name": null
     }
   }

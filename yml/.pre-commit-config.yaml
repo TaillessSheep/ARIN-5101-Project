@@ -1,0 +1,15 @@
+repos:
+  - repo: https://github.com/kynan/nbstripout
+    rev: '0.7.1'
+    hooks:
+      - id: nbstripout
+        name: Remove Jupyter notebook output cells before committing
+        files: \.ipynb$
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: check-json

@@ -11,6 +11,12 @@ Then the model and the traing result are saved in the `./models` and `./reports`
 Base on the config, the code might no taring the model and instead, only load the model and report from `./models` and `./reports`
 
 
+# Pre-commit setup
+```bash
+pip install pre-commit nbstripout
+pre-commit install -c yml/.pre-commit-config.yaml
+```
+
 # Basic env setup
 To start the project locally:
 ```bash
@@ -21,7 +27,7 @@ or to update the env
 conda env update -f environment.yml  --prune
 ```
 
-Then 
+Then
 ```bash
 conda activate Arin5101Proj
 ```
