@@ -1,0 +1,10 @@
+name: Arin5101Proj
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - ipykernel
+  - pytorch
+  - torchvision
+  - matplotlib
+prefix: /opt/miniconda3/envs/Arin5101Proj
