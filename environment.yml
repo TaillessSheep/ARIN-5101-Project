@@ -7,4 +7,5 @@ dependencies:
   - pytorch
   - torchvision
   - matplotlib
+  - pandas
 prefix: /opt/miniconda3/envs/Arin5101Proj
