@@ -2,7 +2,7 @@
   "learning_rate": 0.001,
   "num_epochs": 12,
   "batch_size": 128,
-  "force_train": true,
+  "force_train": false,
   "model_dir": {
     "baseline": "./models/baseline"
   },
