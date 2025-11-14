@@ -5,26 +5,23 @@
   "force_train": false,
   "model_dir": "./models",
   "reports_dir": "./reports",
-  "subset_choice": "animals",
+  "subset_choice": "objects",
   "num_classes": 10,
   "subset_options": {
     "balanced": {
       "name": "Balanced & Easy",
       "description": "Distinct shapes and colors - Recommended for quick training",
-      "classes": ["beaver", "shark", "tulip", "plate", "television", "chair", "butterfly", "bear", "mountain", "train"],
-      "model_name": null
+      "classes": ["beaver", "shark", "tulip", "plate", "television", "chair", "butterfly", "bear", "mountain", "train"]
     },
     "animals": {
       "name": "All-Animals Theme",
       "description": "Consistent biological category",
-      "classes": ["beaver", "whale", "trout", "fox", "wolf", "chimpanzee", "squirrel", "raccoon", "turtle", "hamster"],
-      "model_name": null
+      "classes": ["beaver", "whale", "trout", "fox", "wolf", "chimpanzee", "squirrel", "raccoon", "turtle", "hamster"]
     },
     "objects": {
       "name": "Human-Made Objects",
       "description": "Object-focused subset",
-      "classes": ["bottle", "cup", "keyboard", "television", "chair", "table", "house", "road", "pickup truck", "train"],
-      "model_name": null
+      "classes": ["bottle", "cup", "keyboard", "television", "chair", "table", "house", "road", "keyboard", "train"]
     }
   }
 }
