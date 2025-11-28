@@ -2,10 +2,10 @@
   "learning_rate": 0.001,
   "num_epochs": 12,
   "batch_size": 128,
-  "force_train": false,
+  "force_train": true,
   "model_dir": "./models",
   "reports_dir": "./reports",
-  "subset_choice": "objects",
+  "subset_choice": "balanced",
   "num_classes": 10,
   "subset_options": {
     "balanced": {
