@@ -5,7 +5,7 @@
   "force_train": false,
   "model_dir": "./models",
   "reports_dir": "./reports",
-  "subset_choice": "objects",
+  "subset_choice": "balanced",
   "num_classes": 10,
   "subset_options": {
     "balanced": {
