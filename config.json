@@ -1,6 +1,6 @@
 {
   "learning_rate": 0.001,
-  "num_epochs": 12,
+  "num_epochs": 20,
   "batch_size": 128,
   "force_train": false,
   "model_dir": "./models",
@@ -11,7 +11,34 @@
     "balanced": {
       "name": "Balanced & Easy",
       "description": "Distinct shapes and colors - Recommended for quick training",
-      "classes": ["beaver", "shark", "tulip", "plate", "television", "chair", "butterfly", "bear", "mountain", "train"]
+      "classes": [
+        "apple",
+        "aquarium_fish",
+        "baby",
+        "bed",
+        "bicycle",
+        "bottle",
+        "bus",
+        "camel",
+        "clock",
+        "cloud"
+      ]
+    },
+    "balanced1": {
+      "name": "Balanced1",
+      "description": "Distinct shapes and colors - Recommended for quick training",
+      "classes": [
+        "dinosaur",
+        "forest",
+        "lawn_mower",
+        "leopard",
+        "maple_tree",
+        "orange",
+        "rocket",
+        "shark",
+        "telephone",
+        "train"
+      ]
     },
     "animals": {
       "name": "All-Animals Theme",
